@@ -9,5 +9,6 @@ site:
     siteRootDir: docs
     siteProtocol: https
     usePrettyRefs: true
-    siteUrl: https://github.com/hydrosquall/dendron-tutorial
-    assetsPrefix: https://github.com/hydrosquall/dendron-tutorial
+    siteUrl: https://hydrosquall.github.io/dendron-tutorial
+    assetPrefix: https://hydrosquall.github.io/dendron-tutorial
+    # assetsPrefix: https://github.com/hydrosquall/dendron-tutorial
