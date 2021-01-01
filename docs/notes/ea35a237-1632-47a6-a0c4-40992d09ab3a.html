@@ -468,7 +468,7 @@
     <meta itemprop="headline" content="115340">
     
     <meta itemprop="datePublished" content="2021-01-01T11:53:42+00:00">
-    <meta itemprop="dateModified" content="2021-01-01T14:38:49+00:00">
+    <meta itemprop="dateModified" content="2021-01-01T14:44:19+00:00">
 
     <div class="page__inner-wrap">
       
@@ -489,8 +489,13 @@
 <li><a href="https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB">Export web page to markdown</a></li>
 </ul>
 <h3 id="commands-for-publishing-v2-with-yarn"><a aria-hidden="true" class="anchor-heading" href="#commands-for-publishing-v2-with-yarn"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Commands for publishing v2 with yarn</h3>
+<p>Original docs: <a href="https://dendron.so/notes/861e4e48-dcc5-4813-a695-8940ba6e64d3.html">https://dendron.so/notes/861e4e48-dcc5-4813-a695-8940ba6e64d3.html</a></p>
+<p>Everything seems to port over to <code>yarn</code> without problems 🎉</p>
 <pre class="language-bash"><code class="language-bash"><span class="token comment"># build locally</span>
-<span class="token function">yarn</span> run  dendron-cli buildSiteV2 --wsRoot .--stage dev --serve
+<span class="token function">yarn</span> run  dendron-cli buildSiteV2 --wsRoot <span class="token builtin class-name">.</span> --stage dev --serve
+</code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># built folder folder to serve on github pages See dendron ym</span>
+<span class="token function">yarn</span> run dendron-cli buildSiteV2 --wsRoot <span class="token builtin class-name">.</span>  --stage prod
 </code></pre><span id="navId" data="ea35a237-1632-47a6-a0c4-40992d09ab3a"></span>
 
 
