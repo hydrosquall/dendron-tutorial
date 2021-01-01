@@ -10,3 +10,4 @@ site:
     siteProtocol: https
     usePrettyRefs: true
     siteUrl: https://github.com/hydrosquall/dendron-tutorial
+    assetsPrefix: https://github.com/hydrosquall/dendron-tutorial
