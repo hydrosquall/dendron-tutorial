@@ -2,15 +2,24 @@
 id: ea35a237-1632-47a6-a0c4-40992d09ab3a
 title: '115340'
 desc: ''
-updated: 1609520540479
+updated: 1609529929560
 created: 1609520022466
 ---
 
-For scratch notes, with no home.
+For notes that don't have a home yet. These can/should be cleared periodically.
 
 E.g. excalidraw blog post
+
 - Open source
 - [ ]  Test me!
 
+### New tabs
 
-dendron.
+- [Export web page to markdown](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB)
+
+### Commands for publishing v2 with yarn
+
+```bash
+# build locally
+yarn run  dendron-cli buildSiteV2 --wsRoot .--stage dev --serve
+```
