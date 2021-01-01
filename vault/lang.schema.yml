@@ -1,0 +1,36 @@
+version: 1
+imports: []
+schemas:
+  - id: lang
+    namespace: true
+    desc: "Computers etc desc"
+    title: lang
+    parent: root
+    children:
+      - data
+  - id: data
+    children:
+      - string
+      - array
+  - id: string
+    # pattern: "[0-2][0-9][0-9][0-9]" for stuff like year, months, etc
+    template:
+      id: templates.lang # may need to reload window to take effect
+      type: note
+  - id: array
+  # schema doesn't actually hold you hostage. The benefits?
+
+  # 1. In lookup:  question mark if note doesn't match schema
+  # 2. autocomplete schema as you create new nodes that match (e.g. new lang, java.data etc)
+  # 3. can use template when you create new docs in this location
+
+
+  # alternate verbose form
+  # - id: lang
+  #   children:
+  #       - python
+  #       - ruby
+  #   title: lang
+  #   parent: root
+  # - id: python
+  # - id: ruby

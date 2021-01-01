@@ -1,0 +1,11 @@
+{
+  "name": "Dendron-Tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cameron Yick <cameron.yick@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@dendronhq/dendron-11ty": "^1.22.5",
+    "@dendronhq/dendron-cli": "^0.22.1"
+  }
+}
